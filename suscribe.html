@@ -60,15 +60,15 @@
           </div>
             <div class="col-md-6 col-sm-12">
                 <div class="form">
-                    <form class="form-floating " netlify  method="get">
-                        <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
+                    <form name="contact" class="form-floating" netlify >
+                        <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" required>
                         <label for="floatingInputValue">Email</label>
                             
                         <div class="row g-3 mt-2">
                             <div class="col-sm-7">
                                 <div class="col-12">
                                 <label class="visually-hidden" for="inlineFormSelectPref" required>Preference</label>
-                                <select class="form-select" id="inlineFormSelectPref">
+                                <select class="form-select" id="inlineFormSelectPref" required>
                                   <option selected>Choose your country</option>
                                   <option value="1">Argentina</option>
                                   <option value="2">USA</option>
@@ -84,7 +84,7 @@
                             </div>
                           </div>
                           <div class="col-12 mt-4 text-center">
-                            <button type="submit" class="btn btn-light" required>Suscribe!</button>
+                            <button type="submit" class="btn btn-light">Suscribe!</button>
                           </div>
                       </form>
                 </div>    
